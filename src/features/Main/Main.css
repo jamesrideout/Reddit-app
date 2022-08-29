@@ -1,0 +1,14 @@
+.main-container {
+    width: 70vw;
+    padding: 5px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    margin-left: 2vw;
+}
+
+.error {
+    width: 70vw;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}

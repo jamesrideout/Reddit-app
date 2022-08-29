@@ -1,14 +1,19 @@
 import React from 'react';
-import logo from './reddit-logo.png';
 import './App.css';
+import SearchBar from './features/Searchbar/Searchbar';
+import Main from './features/Main/Main';
+import Subreddits from './features/Subreddits/Subreddits';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        {/* Components */}
+        < SearchBar />
       </header>
+      <main className="container">
+        <Main />
+        <Subreddits />
+      </main>
     </div>
   );
 }

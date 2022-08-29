@@ -1,0 +1,42 @@
+.subreddit-card {
+    width: 20vw;
+    background-color: rgb(231, 231, 231);
+    margin: auto;
+}
+
+.subreddits-list {
+    list-style: none;
+    padding: 0;
+}
+
+.subreddit-card button {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-bottom: 2px;
+}
+
+.subreddit-card button:hover {
+    background-color: grey;
+}
+
+.selected-subreddit button {
+    background-color: rgb(255, 51, 0) !important;
+    border: 3px white solid;
+  }
+
+.subreddit-icon {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
