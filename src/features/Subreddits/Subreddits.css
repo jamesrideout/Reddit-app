@@ -1,13 +1,15 @@
 .subreddit-card {
     width: 20vw;
+    height: 100%;
     background-color: rgb(231, 231, 231);
-    margin: auto;
+    margin: 10px auto;
 }
 
 .subreddits-list {
     list-style: none;
     padding: 0;
 }
+
 
 .subreddit-card button {
     background: none;
@@ -18,15 +20,16 @@
     color: black;
     font-weight: 600;
     cursor: pointer;
-    width: 100%;
+    width: 80%;
     padding: 5px;
     border-radius: 10px;
     font-size: 1rem;
-    margin-bottom: 2px;
+    background-color: darkgrey;
+    margin: 10px auto;
 }
 
 .subreddit-card button:hover {
-    background-color: grey;
+    background-color: white;
 }
 
 .selected-subreddit button {

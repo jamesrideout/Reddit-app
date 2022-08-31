@@ -1,0 +1,20 @@
+article {
+    margin: auto;
+}
+
+.post-container {
+    width: 100%;
+    margin: auto;
+}
+
+.post-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.post-img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+

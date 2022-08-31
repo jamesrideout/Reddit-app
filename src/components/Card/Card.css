@@ -5,4 +5,5 @@
     padding: 5px;
     transition: box-shadow 0.1s ease-in;
     color: black;
+    background-color: rgb(231, 231, 231);
   }

@@ -3,10 +3,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import {
   fetchPosts,
   selectFilteredPosts,
-  setSearchTerm,
-  fetchComments,
 } from '../../app/redditSlice';
 import './Main.css';
+import Post from '../Post/Post';
 
 const Main = () => {
 
@@ -18,7 +17,9 @@ const Main = () => {
     //Fetch posts by Subreddit
     useEffect(() => {
         dispatch(fetchPosts(selectedSubreddit));
-    }, [selectedSubreddit]);
+    }, [selectedSubreddit, dispatch]);
+
+
 
     if (isLoading) {
         return (
@@ -47,7 +48,14 @@ const Main = () => {
     return (
         <div className="main-container">
             <h2>Posts</h2>
-            {/*<Post />*/}
+            <div>
+                {posts.map((post) => (
+                    <Post 
+                        key={post.id}
+                        post={post}
+                    />
+                ))}
+            </div>
         </div>
     )
 
