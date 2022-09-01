@@ -1,10 +1,13 @@
 article {
     margin: auto;
+    background-color: none;
 }
 
 .post-container {
     width: 100%;
     margin: auto;
+    border-radius: 25px;
+    overflow: hidden;
 }
 
 .post-img-container {
@@ -18,3 +21,24 @@ article {
     border-radius: 10px;
 }
 
+.post-details {
+    margin: 20px;
+    font-size: 1.05rem;
+    border-top: 1px grey solid;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-author {
+    color: rgb(255, 51, 0);
+}
+
+.upvotes {
+    color: rgb(0, 189, 0);
+    font-weight: bold;
+}
+
+.post-card:hover {
+    box-shadow: 10px 5px 30px;
+}

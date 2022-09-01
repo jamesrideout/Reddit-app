@@ -1,10 +1,13 @@
 .main-container {
     width: 70vw;
     padding: 5px;
-    background-color: rgb(231, 231, 231);
+    background-color: white;
     border-radius: 10px;
     margin-left: 2vw;
-    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 
 .error {

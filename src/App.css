@@ -35,7 +35,6 @@
 
 .container {
   display: flex; 
-  justify-content: space-around;
 }
 
 @media only screen and (max-width: 800px) {
@@ -43,4 +42,8 @@
     display: block;
     justify-content: space-around;
   }
+}
+
+h2, h4 {
+  margin: 10px;
 }

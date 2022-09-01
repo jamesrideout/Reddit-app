@@ -19,7 +19,7 @@ const Main = () => {
         dispatch(fetchPosts(selectedSubreddit));
     }, [selectedSubreddit, dispatch]);
 
-
+    console.log(posts)
 
     if (isLoading) {
         return (
